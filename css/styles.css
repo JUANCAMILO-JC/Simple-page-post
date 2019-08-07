@@ -1,7 +1,9 @@
 body {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: dimgray
+    background-color: dimgray;
+    padding: 0;
+    margin: 0
 }
 
 .title_post {
@@ -9,9 +11,15 @@ body {
 }
 
 #container {
-    width: 80%;
-    border: solid 3px lightgray;
+    width: 100%;
     position: relative;
-    align-self: center
-
+    display: flex;
+    justify-content: center
+    
+    
+}
+.section {
+    width: 80%;
+    position: relative;
+    border: solid 3px lightgray;
 }
