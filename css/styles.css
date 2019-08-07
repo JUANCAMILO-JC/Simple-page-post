@@ -7,3 +7,11 @@ body {
 .title_post {
     color: darkorange
 }
+
+#container {
+    width: 80%;
+    border: solid 3px lightgray;
+    position: relative;
+    align-self: center
+
+}
