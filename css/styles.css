@@ -23,3 +23,6 @@ body {
     position: relative;
     border: solid 3px lightgray;
 }
+.header {
+    position: relative;
+}
