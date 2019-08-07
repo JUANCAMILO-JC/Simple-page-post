@@ -12,14 +12,20 @@ body {
 
 #container {
     width: 100%;
-    position: relative;
-    display: flex;
+    position: absolute;
+    align-content: center;
     justify-content: center
-    
-    
+ 
 }
 .section {
+    border: solid 1px lightgray;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.header {
     width: 80%;
     position: relative;
-    border: solid 3px lightgray;
+    text-align: center;
+    margin: auto;
 }
