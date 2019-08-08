@@ -27,6 +27,7 @@ body {
 
 .header {
     border: solid 1px lightgrey;
+    background-color: lightgray;
     width: 80%;
     position: relative;
     text-align: center;
